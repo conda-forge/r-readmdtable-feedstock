@@ -31,14 +31,14 @@ requirements:
     - r-cli
     - r-httr2
     - r-purrr
-    - r-readr
+    - r-readr >=2.2.0
     - r-stringr
   run:
     - r-base
     - r-cli
     - r-httr2
     - r-purrr
-    - r-readr
+    - r-readr >=2.2.0
     - r-stringr
 
 test:
@@ -47,7 +47,8 @@ test:
     - "\"%R%\" -e \"library('readMDTable')\""  # [win]
 
 about:
-  home: https://github.com/jrdnbradford/readMDTable, https://jrdnbradford.github.io/readMDTable/
+  home: https://jrdnbradford.github.io/readMDTable/
+  dev_url: https://github.com/jrdnbradford/readMDTable
   license: GPL-3.0-or-later
   summary: Efficient reading of raw markdown tables into tibbles. Designed to accept content from strings, files, and URLs with the ability to extract and read multiple tables from markdown for analysis.
   license_family: GPL3
