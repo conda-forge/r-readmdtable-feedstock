@@ -3,11 +3,13 @@ About r-readmdtable-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-readmdtable-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/jrdnbradford/readMDTable, https://jrdnbradford.github.io/readMDTable/
+Home: https://jrdnbradford.github.io/readMDTable/
 
 Package license: GPL-3.0-or-later
 
 Summary: Efficient reading of raw markdown tables into tibbles. Designed to accept content from strings, files, and URLs with the ability to extract and read multiple tables from markdown for analysis.
+
+Development: https://github.com/jrdnbradford/readMDTable
 
 Current build status
 ====================
