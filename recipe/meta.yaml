@@ -30,6 +30,7 @@ requirements:
     - r-base
     - r-cli
     - r-httr2
+    - r-lifecycle
     - r-purrr
     - r-readr >=2.2.0
     - r-stringr
@@ -37,6 +38,7 @@ requirements:
     - r-base
     - r-cli
     - r-httr2
+    - r-lifecycle
     - r-purrr
     - r-readr >=2.2.0
     - r-stringr
