@@ -1,4 +1,4 @@
-{% set version = "0.3.3" %}
+{% set version = "0.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/readMDTable_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/readMDTable/readMDTable_{{ version }}.tar.gz
-  sha256: 33eb733a1163b8bcf4c7be4f33075a17a3436a34ce1e666a644e12762fd9eea2
+  sha256: 096a360bbd3d8b1a1caa0ca89d6e6a73aa402c4726ffd0db7e29c6e8fab541ad
 
 build:
   number: 0
@@ -30,6 +30,7 @@ requirements:
     - r-base
     - r-cli
     - r-httr2
+    - r-lifecycle
     - r-purrr
     - r-readr >=2.2.0
     - r-stringr
@@ -37,6 +38,7 @@ requirements:
     - r-base
     - r-cli
     - r-httr2
+    - r-lifecycle
     - r-purrr
     - r-readr >=2.2.0
     - r-stringr
